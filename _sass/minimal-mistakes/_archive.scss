@@ -97,19 +97,15 @@
   bottom: 0;
   inset-inline-end: 0;
   margin: 0 auto;
-  padding: 2px 5px;
+  padding: 1px 6px;
   color: #fff;
   font-family: $caption-font-family;
   font-size: $type-size-8;
   background: #000;
   text-align: end;
   z-index: 5;
-  opacity: 0.5;
+  opacity: 0.3;
   border-radius: $border-radius 0 0 0;
-
-  @include breakpoint($large) {
-    padding: 5px 10px;
-  }
 
   a {
     color: #fff;
